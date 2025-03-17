@@ -24,7 +24,7 @@ jobs:
           cache: 'npm'
           cache-dependency-path: 'server/package-lock.json'
           
-      - name: Install dependencies
+      - name: Installation of dependencies
         run: |
           cd server
           npm ci
